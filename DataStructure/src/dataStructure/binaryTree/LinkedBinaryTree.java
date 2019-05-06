@@ -1,145 +1,12 @@
-# 二叉树遍历策略
-按照某种次序访问树中的所有结点并且所有结点恰好访问一次。也就是说按照被访问的次序所有结点都可以拍成一个序列，树的遍历也可以看成认为的将非线性结构线性化。<br>
-## 遍历方式
-将整个二叉树看成三部分：根、左子树、右子树。如果规定先遍历左子树，再遍历右子树，那么就有三种遍历方式：
-1. 前序遍历：
-    * 访问根节点
-    * 按照前序遍历的方式访问根节点的左子树
-    * 按照前序遍历的方式访问根节点的右子树
-2. 中序遍历：
-    * 按照中序遍历的方式访问根节点的左子树
-    * 访问根节点
-    * 按照中序遍历的方式访问根节点的右子树
-3. 后序遍历：
-    * 按照后序遍历的方式访问结点的左子树
-    * 按照后序遍历的方式访问根节点的右子树
-    * 最后访问根节点
-<br><img src=img/遍历.png><br>
-* 前序：5-3-1-2-4-9-7-6-8-10
-* 中序：1-2-3-4-5-6-7-8-9-10
-* 后序：2-1-4-3-6-8-7-10-9-5
+package dataStructure.binaryTree;
 
-# Java实现
-1. 定义结点
-```java
-public class Node {
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 
-    private Object data;//结点值
-    private Node leftChild;//左子树的引用
-    private Node RightChild;//右子树的引用
-
-    public Node(Object data, Node leftChild, Node rightChild) {
-        this.data = data;
-        this.leftChild = leftChild;
-        RightChild = rightChild;
-    }
-
-    public Node(Object data) {
-        this.data = data;
-    }
-
-    public Object getData() {
-        return data;
-    }
-
-    public void setData(Object data) {
-        this.data = data;
-    }
-
-    public Node getLeftChild() {
-        return leftChild;
-    }
-
-    public void setLeftChild(Node leftChild) {
-        this.leftChild = leftChild;
-    }
-
-    public Node getRightChild() {
-        return RightChild;
-    }
-
-    public void setRightChild(Node rightChild) {
-        RightChild = rightChild;
-    }
-
-    @Override
-    public String toString() {
-        return "Node{" +
-                "data=" + data +
-                ", leftChild=" + leftChild +
-                ", RightChild=" + RightChild +
-                '}';
-    }
-}
-
-```
-2. 定义接口
-```java
-/**
- * 二叉树的接口
+/**`
+ * 链式二叉树
  */
-public interface BinaryTree {
-    /**
-     * 是否空树
-     * @return
-     */
-    boolean isEmpty();
-
-    /**
-     * 树结点数量
-     * @return
-     */
-    int size();
-
-    /**
-     * 获取二叉树的高度
-     * @return
-     */
-    int getHeight();
-
-    /**
-     * 查询指定值的结点
-     * @param value
-     * @return
-     */
-    Node findkey(int value);
-
-    /**
-     * 前序遍历递归操作
-     */
-    void preOrderTraverse();
-
-    /**
-     * 中序遍历递归操作
-     */
-    void inOrderTraverse();
-
-    /**
-     * 后序遍历递归操作
-     */
-    void postOrderTraverse();
-
-
-    /**
-     * 中序遍历非递归操作
-     * 1. 对于任意结点current，若该结点不为空则将该节点压栈，并将左子树结点置为current，重复此操作，直到
-     */
-    void inOrderByStack();
-
-    /**
-     * 前序遍历非递归操作
-     */
-    void preOrderByStack();
-
-    /**
-     * 按照层次遍历二叉树
-     */
-    void levelOrderByStack();
-
-}
-```
-3. 定义二叉树
-```java
 public class LinkedBinaryTree implements BinaryTree {
 
     private Node root;//根节点
@@ -288,7 +155,7 @@ public class LinkedBinaryTree implements BinaryTree {
     }
 
     @Override
-    public void levelOrderByStack() {
+    public void levelOrderByQueue() {
         System.out.print("层次遍历：");
         if (root == null)
             return;
@@ -306,4 +173,3 @@ public class LinkedBinaryTree implements BinaryTree {
         System.out.println();
     }
 }
-```
