@@ -1,15 +1,15 @@
 package leetcode;
 
 /**
- * 到最近的人的最大距离：
+ * MaxDistToClosest：
  * 在一排座位（seats）中，1代表有人坐在座位上，0代表座位上是空的。其中至少有一个座位，且至少有一人坐在座位上.
  * 亚历克斯希望坐在一个能够使他与离他最近的人之间的距离达到最大化的座位上。返回他到离他最近的人的最大距离。
  * 示例：[1，0，0，0，1，0，1]
  * 结果：2。如果坐在第二个空位（seats[2]）上，离他最近的人的距离为2；如果坐在其它任何一个空位上，离他最近的人的距离为1。因此，最大距离是2。
  */
-public class Seats {
+public class MaxDistToClosest {
     public static void main(String[] args) {
-        Seats seats = new Seats();
+        MaxDistToClosest seats = new MaxDistToClosest();
         System.out.println(seats.maxDistToClosest(new int[]{1, 0, 0, 1}));
     }
 

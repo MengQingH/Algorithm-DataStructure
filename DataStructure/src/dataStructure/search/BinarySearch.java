@@ -51,6 +51,7 @@ public class BinarySearch {
     /**
      * 用递归的方式进行折半查找
      * T(n) = O(log n) S(n) = O(log n)
+     *
      * @param arr
      * @param e
      * @return

@@ -5,10 +5,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 求最大字串：
+ * 求最大子串：
  * 给定一个字符串，找出其中不含有重复字符的最长字串的长度
  */
-public class LongestSubstring {
+public class LengthOsLongestSubstring {
     public static void main(String[] args) {
 
         String s = " ";
@@ -16,7 +16,7 @@ public class LongestSubstring {
         System.out.println(c.length);
         System.out.println(Arrays.toString(c));
 
-        LongestSubstring l = new LongestSubstring();
+        LengthOsLongestSubstring l = new LengthOsLongestSubstring();
         System.out.println(l.lengthOfLongestSubstring("pwwkew"));
     }
 

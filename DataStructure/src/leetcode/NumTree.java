@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * 不同的二叉搜索树：
+ * NumTree：
  * 给定一个整数n，求以1-n为结点组成的二叉搜索树有多少种？
  */
 public class NumTree {

@@ -4,13 +4,13 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /**
- * 两数之和：
+ * TwoSum：
  * 给定一个整数数组nums和一个目标值target，请你在该整数中找出和为目标值的那两个数，并返回他们的数组下标。
  * 假定每种输入只会对应一个答案，不能重复利用数组中的元素。
  */
-public class SumOfTwoNum {
+public class TwoSum {
     public static void main(String[] args) {
-        SumOfTwoNum num = new SumOfTwoNum();
+        TwoSum num = new TwoSum();
         int[] arr = new int[]{2, 7, 11, 34};
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(num.twoSum(arr, 9)));

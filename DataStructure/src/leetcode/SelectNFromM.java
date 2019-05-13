@@ -3,9 +3,9 @@ package leetcode;
 /**
  * 从n个元素中选择排序后第m个元素
  */
-public class SelectMFormN {
+public class SelectNFromM {
     public static void main(String[] args) {
-        SelectMFormN s = new SelectMFormN();
+        SelectNFromM s = new SelectNFromM();
         int[] arr = new int[]{9, 7, 3, 1, 2, 6, 4, 5, 8, 10};
         System.out.println(s.select(arr, 5));
     }
