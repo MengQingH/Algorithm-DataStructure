@@ -1,10 +1,12 @@
-/**
- *
- */
-public class Lc092反转链表2 {
+package LinkedList;
+
+import node.ListNode;
+
+public class Lc092__反转链表2_2 {
 
     /**
-     * 反转索引从m到n的节点，如果m = 1，那么就相当于反转前n个节点，可以从第m个元素开始进行反转，此时就相当于反转前n-m个元素。
+     * 反转索引从m到n的结点，如果m = 1，那么就相当于反转前n个结点，可以从第m个元素开始进行反转，此时就相当于反转前n-m个元素。
+     *
      * @param head
      * @param left
      * @param right
@@ -21,7 +23,7 @@ public class Lc092反转链表2 {
     private ListNode successor = null;
 
     /**
-     * 反转链表的前n个节点
+     * 反转链表的前n个结点
      * @param head
      * @param n
      * @return
@@ -35,15 +37,6 @@ public class Lc092反转链表2 {
         head.next.next = head;
         head.next = successor;
         return last;
-    }
-
-
-    public class ListNode{
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
 }
