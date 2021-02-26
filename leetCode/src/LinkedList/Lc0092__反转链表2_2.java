@@ -2,7 +2,7 @@ package LinkedList;
 
 import node.ListNode;
 
-public class Lc092__反转链表2_2 {
+public class Lc0092__反转链表2_2 {
 
     /**
      * 反转索引从m到n的结点，如果m = 1，那么就相当于反转前n个结点，可以从第m个元素开始进行反转，此时就相当于反转前n-m个元素。

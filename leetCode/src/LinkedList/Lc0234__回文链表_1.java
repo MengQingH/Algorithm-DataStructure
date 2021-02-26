@@ -2,7 +2,7 @@ package LinkedList;
 
 import node.ListNode;
 
-public class Lc234__回文链表_1 {
+public class Lc0234__回文链表_1 {
     /////////////////////////时间复杂度O(n),空间复杂度O(1)//////////////////////////////////
 
     /**

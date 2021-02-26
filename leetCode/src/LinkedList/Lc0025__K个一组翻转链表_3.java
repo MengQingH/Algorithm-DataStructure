@@ -2,7 +2,7 @@ package LinkedList;
 
 import node.ListNode;
 
-public class Lc025__K个一组翻转链表_3 {
+public class Lc0025__K个一组翻转链表_3 {
 
       ////////////////////////////递归实现///////////////////////////////////
 

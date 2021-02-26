@@ -2,7 +2,7 @@ package Tree;
 
 import node.TreeNode;
 
-public class Lc226__翻转二叉树_1 {
+public class Lc0226__翻转二叉树_1 {
 
     /**
      * 函数定义：给定一个根结点root，对root的左子树和右子树进行翻转。

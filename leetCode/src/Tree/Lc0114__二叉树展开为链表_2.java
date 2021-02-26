@@ -6,7 +6,7 @@ import node.TreeNode;
  * 思路：1. 将root的左子树和右子树拉平。
  *      2. 将root的右子树接到左子树的下方，然后将整个左子树作为右子树。
  */
-public class Lc114__二叉树展开为链表_2 {
+public class Lc0114__二叉树展开为链表_2 {
 
     /**
      * 方法定义：给定一个输入结点root，以root为根节点的树会被拉成一条直线

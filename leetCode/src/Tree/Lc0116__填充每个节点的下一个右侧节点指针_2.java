@@ -1,6 +1,6 @@
 package Tree;
 
-public class Lc116__填充每个节点的下一个右侧节点指针_2 {
+public class Lc0116__填充每个节点的下一个右侧节点指针_2 {
 
     Node connect(Node root){
         if(root == null) return null;

@@ -1,6 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="576c5c02-4e76-4f30-a21f-fa404d2c8de4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BST/Lc0230__二叉搜索树中第K小的元素_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0105__从前序与中序遍历序列构造二叉树_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0106__从中序与后序遍历序列构造二叉树_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0652__寻找重复的子树_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0654__最大二叉树_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc025__K个一组翻转链表_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0025__K个一组翻转链表_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc092__反转链表2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0092__反转链表2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc234__回文链表_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0234__回文链表_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Lc114__二叉树展开为链表_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0114__二叉树展开为链表_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Lc116__填充每个节点的下一个右侧节点指针_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0116__填充每个节点的下一个右侧节点指针_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Lc226__翻转二叉树_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0226__翻转二叉树_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法/05二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/05二叉树.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1osLibqTYXBUTRqjaAHcAfunS7B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Lc0230__二叉搜索树中第K小的元素_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BST.Lc0230__二叉搜索树中第K小的元素_2" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lc0230__二叉搜索树中第K小的元素_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="576c5c02-4e76-4f30-a21f-fa404d2c8de4" name="Default Changelist" comment="" />
+      <created>1614070479736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614070479736</updated>
+      <workItem from="1614070482601" duration="29465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1614070497368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614070497368" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614327184387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614327184387" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BST/Lc0230__二叉搜索树中第K小的元素_2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
