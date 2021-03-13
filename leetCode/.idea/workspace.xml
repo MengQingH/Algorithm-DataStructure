@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="576c5c02-4e76-4f30-a21f-fa404d2c8de4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BST/Lc0230__二叉搜索树中第K小的元素_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0105__从前序与中序遍历序列构造二叉树_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0106__从中序与后序遍历序列构造二叉树_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0652__寻找重复的子树_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Lc0654__最大二叉树_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc025__K个一组翻转链表_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0025__K个一组翻转链表_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc092__反转链表2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0092__反转链表2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Lc234__回文链表_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Lc0234__回文链表_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Lc114__二叉树展开为链表_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0114__二叉树展开为链表_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Lc116__填充每个节点的下一个右侧节点指针_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0116__填充每个节点的下一个右侧节点指针_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Lc226__翻转二叉树_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Lc0226__翻转二叉树_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/05二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/05二叉树.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法/08数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/08数据结构.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -96,6 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614070479736</updated>
       <workItem from="1614070482601" duration="29465000" />
+      <workItem from="1614654747620" duration="14999000" />
+      <workItem from="1615015363671" duration="1229000" />
+      <workItem from="1615447953485" duration="1849000" />
     </task>
     <servers />
   </component>
@@ -112,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1614070497368">
