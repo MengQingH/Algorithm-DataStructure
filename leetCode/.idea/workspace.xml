@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="576c5c02-4e76-4f30-a21f-fa404d2c8de4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LC/105.从前序与中序遍历序列构造二叉树.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/08数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/08数据结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法/05二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/05二叉树.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager">
     <configuration name="Lc0230__二叉搜索树中第K小的元素_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,7 +89,8 @@
       <workItem from="1614070482601" duration="29465000" />
       <workItem from="1614654747620" duration="14999000" />
       <workItem from="1615015363671" duration="1229000" />
-      <workItem from="1615447953485" duration="1849000" />
+      <workItem from="1615447953485" duration="20582000" />
+      <workItem from="1616122270720" duration="9568000" />
     </task>
     <servers />
   </component>
@@ -112,6 +114,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614070497368" />
+    <state x="656" y="126" key="SettingsEditor" timestamp="1616057307060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="126" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616057307060" />
+    <state x="2520" y="139" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616056829297" />
+    <state x="2621" y="216" key="VCS.ChangeListViewerDialog" timestamp="1616141641779">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2621" y="216" key="VCS.ChangeListViewerDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616141641779" />
+    <state x="916" y="355" width="618" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1616057262847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="916" y="355" width="618" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616057262847" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614327184387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
