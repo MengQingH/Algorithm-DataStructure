@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="576c5c02-4e76-4f30-a21f-fa404d2c8de4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../LC/105.从前序与中序遍历序列构造二叉树.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/05二叉树.md" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/05二叉树.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1614654747620" duration="14999000" />
       <workItem from="1615015363671" duration="1229000" />
       <workItem from="1615447953485" duration="20582000" />
-      <workItem from="1616122270720" duration="9568000" />
+      <workItem from="1616122270720" duration="10168000" />
     </task>
     <servers />
   </component>
