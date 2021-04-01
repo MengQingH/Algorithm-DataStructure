@@ -17,14 +17,32 @@ class Solution {
      * 如果i之前的数都小于i并且都在窗口内，那么窗口滑动的过程中，i前面的这些值的最大值就是i
      * 如果i之后的元素j大于i并且都在窗口内，那么窗口的滑动的过程中，最大值不可能是i
      * 
-     * 所以可以设计一个单调队列
+     * 时间复杂度：O(n)
      * 
      * @param {int[]} nums
      * @param {int} k
      * @return {*}
      */
-    public int[] maxSlidingWindow_(int[] nums, int k) {
-        
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int[] res = new int[nums.length-k+1];
+        Deque<Integer> deque = new LinkedList<>();
+        for(int i = 0; i<nums.length; i++){
+            //向队列中添加元素：如果添加的元素i大于队列中i之前的所有元素，
+            //那么就代表之后队列滑动的过程中，i之前的元素永远不会是最值，所以可以全部弹出
+            while(!deque.isEmpty() && deque.peekLast()<nums[i]){
+                deque.pollLast();
+            }
+            deque.offerLast(nums[i]);
+            //i=k-1时，队列中元素个数满足条件，获得第一个最大值，之后每滑动一次，有一个最大值
+            if(i >= k-1){
+                res[i-k+1] = deque.peekFirst();
+                //如果最大值为要弹出的值，就进行弹出
+                if(deque.peekFirst() == nums[i-k+1]){
+                    deque.pollFirst();
+                }
+            }
+        }
+        return res;
     }
 
     /**

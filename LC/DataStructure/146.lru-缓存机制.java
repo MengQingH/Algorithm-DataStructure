@@ -16,6 +16,12 @@ class LRUCache {
         this.cap= capacity;
     }
     
+    /**
+     * 获取key对应的val
+     * 
+     * @param {int} key
+     * @return {*}
+     */
     public int get(int key) {
         if(cache.containsKey(key)){
             return -1;
@@ -26,6 +32,13 @@ class LRUCache {
 
     }
     
+    /**
+     * 塞入键值对
+     * 
+     * @param {int} key
+     * @param {int} value
+     * @return {*}
+     */
     public void put(int key, int value) {
         if (cache.containsKey(key)) {
             // 修改 key 的值
@@ -44,6 +57,12 @@ class LRUCache {
         cache.put(key, val);
     }
 
+    /**
+     * 把key设置为最近访问
+     * 
+     * @param {int} key
+     * @return {*}
+     */
     private void markRevently(int key){
         int val = cache.get(key);
         cache.remove(key);
