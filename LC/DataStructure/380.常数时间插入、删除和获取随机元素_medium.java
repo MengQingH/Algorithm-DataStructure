@@ -13,11 +13,13 @@ class RandomizedSet {
 
     List<Integer> list;
     Map<Integer, Integer> valToIndex;
+    Random random;
 
     /** Initialize your data structure here. */
     public RandomizedSet() {
         list = new ArrayList<>();
         valToIndex = new HashMap<>();
+        random = new Random();
     }
     
     /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
@@ -36,16 +38,19 @@ class RandomizedSet {
         int lastIndex = list.size()-1;
         int last = list.get(lastIndex);
         int valIndex = valToIndex.get(val);
-        list.add(valIndex, last);
-        list.remove(lastIndex);
+
+        //list的add方法是把元素添加到某个位置上，把所有的元素向后移；set方法是直接替换
+        list.set(valIndex, last);
         valToIndex.put(last, valIndex);
+
+        list.remove(lastIndex);
         valToIndex.remove(val);
         return true;
     }
     
     /** Get a random element from the set. */
     public int getRandom() {
-        return list.get(new Random().nextInt(list.size()));
+        return list.get(random.nextInt(list.size()));
     }
 }
 
