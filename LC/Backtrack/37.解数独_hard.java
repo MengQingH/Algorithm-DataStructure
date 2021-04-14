@@ -15,30 +15,34 @@ class Solution {
     }
 
     private void backtrack(char[][] board, int row, int col){
-        if(row == board.length || col == board.length)
+        //
+        if(row == board.length)
             return;
+        //到达行末
+        if(col == board.length){
+            backtrack(board, row+1, 0);
+        }
+
         if(board[row][col] != '.'){
-            if(col == board.length-1)
-                backtrack(board, row+1, 0);
-            else backtrack(board, row, col+1);
+            backtrack(board, row, col+1);
         }
         for(int i = 1; i<10; i++){
             //做选择
             board[row][col] = (char)i;
+            //递归
             if(isValid(board, row, col)){
-                if(col == board.length-1)
-                    backtrack(board, row+1, 0);
-                else backtrack(board, row, col+1);
+                backtrack(board, row, col+1);
             }
+            //撤回选择
             board[row][col] = '.';
         } 
     }
 
     private boolean isValid(char[][] board, int row, int col){
-        int i = row/3 *3;
-        int j = col/3 *3;
-        for( ; i<i+3; i++){
-            for( ; j<j+3; j++){
+        int rowStart = row/3 *3;
+        int colStart = col/3 *3;
+        for(int i = rowStart; i<rowStart+3; i++){
+            for(int j = colStart; j<colStart+3; j++){
                 if(i == row && j == col)
                     continue;
                 if(board[i][j] == board[row][col])
@@ -46,17 +50,12 @@ class Solution {
             }
         }
 
-        for(int r = 0; r<board.length; r++){
-            if(r == row)
+        for(int i = 0; i<board.length; i++){
+            if(i == row || i == col)
                 continue;
-            if(board[r][col] == board[row][col])
+            if(board[i][col] == board[row][col])
                 return false;
-        }
-        
-        for(int c = 0; c<board.length; c++){
-            if(c == col)
-                continue;
-            if(board[row][c] == board[row][col])
+            if(board[row][i] == board[row][col])
                 return false;
         }
 
