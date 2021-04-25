@@ -11,6 +11,9 @@
 // @lc code=start
 class Solution {
 
+    //备忘录
+    private HashMap<String, List<Integer>> memo = new HashMap<>();
+
     /**
      * 函数定义：计算算式expression所有可能的运算结果
      * 思路：每遇到一个运算符，就把括号加在运算符的两边，然后对两部分进行递归。
@@ -19,6 +22,10 @@ class Solution {
      * @return {*}
      */
     public List<Integer> diffWaysToCompute(String expression) {
+        //避免重复计算
+        if(memo.containsKey(expression))
+            return memo.get(expression);
+        
         List<Integer> res = new ArrayList<>();
         // 遍历所有的字符，找出运算符
         for(int i = 0; i<expression.length(); i++){
@@ -29,7 +36,7 @@ class Solution {
                 List<Integer> right = diffWaysToCompute(expression.substring(i+1,expression.length()));
 
                 // 对左右两边递归结果进行整合
-                for(Integer l : left)
+                for(Integer l : left){
                     for(Integer r : right){
                         if(c == '+')
                             res.add(l + r);
@@ -38,6 +45,7 @@ class Solution {
                         if(c == '*')
                             res.add(l * r);
                     }
+                }
             }
         }
 
@@ -45,6 +53,9 @@ class Solution {
         if(res.isEmpty()){
             res.add(Integer.parseInt(expression));
         }
+
+        // 将计算结果加入备忘录
+        memo.put(expression, res);
         return res;
     }
 }
